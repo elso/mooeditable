@@ -176,17 +176,28 @@
 	-webkit-outline: 0;
 }
 
-.mooeditable-ui-button-overlay .overlay-content{
-	padding: 10px;
-}
-
 .mooeditable-ui-statusbar{
 	background-color: #eee;
 	border-top: 1px solid #aaa;
 	position: relative;
+	height: 37px;
+}
+
+.mooeditable-ui-statusbar-nodepath{
+	padding: 10px;
+	float: left;
+}
+
+.mooeditable-ui-statusbar-nodepath .node{
+	cursor: pointer;
+}
+
+.mooeditable-ui-statusbar-nodepath .node:hover{
+	text-decoration: underline;
 }
 
 .mooeditable-ui-statusbar-wordcount{
+	float: right;
 	text-align: right;
 	padding: 10px;
 }
