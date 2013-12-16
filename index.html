@@ -1,100 +1,78 @@
 <!DOCTYPE html>
-<title>MooEditable</title>
-<style>
-body {
-	color: #000;
-	background-color: #fff;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 80%;
-	text-align: center;
-}
-#container{
-	margin: 0 auto;
-	width: 700px;
-	text-align: left;
-}
-.download{
-	float: right;
-}
-h1 a{
-	color: #000;
-	background-color: transparent;
-	text-decoration: none;
-	border-bottom: 2px solid #fafafa;
-}
-h1 a:hover{
-	border-color: #000;
-}
-pre{
-	color: #fff;
-	background-color: #000;
-	padding: 10px;
-	font-size: 110%;
-}
-.mooeditable{
-	border: 2px solid #ddd;
-}
-#textarea-1{
-	width: 670px;
-	height: 100px;
-	padding: 10px;
-}
-</style>
-<link rel="stylesheet" href="http://github.com/cheeaun/mooeditable/raw/master/Assets/MooEditable/MooEditable.css">
-<script src="http://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
-<script src="http://github.com/cheeaun/mooeditable/raw/master/Source/MooEditable/MooEditable.js"></script>
-<script>
-	window.addEvent('domready', function(){
-		$('textarea-1').mooEditable();
-	});
-</script>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Mooeditable by elso</title>
+  </head>
 
-<a href="http://github.com/cheeaun/mooeditable"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  <body>
+    <div id="container">
+      <div class="inner">
 
-<div id="container">
+        <header>
+          <h1>Mooeditable</h1>
+          <h2>A simple web-based WYSIWYG editor, written in MooTools.</h2>
+        </header>
 
-	<div class="download">
-	<a href="http://github.com/cheeaun/mooeditable/zipball/master">
-	<img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-	<a href="http://github.com/cheeaun/mooeditable/tarball/master">
-	<img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-	</div>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/elso/mooeditable/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/elso/mooeditable/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/elso/mooeditable" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-	<h1><a href="http://github.com/cheeaun/mooeditable">MooEditable</a> 
-	<small>by <a href="http://github.com/cheeaun">cheeaun</a></small></h1>
+        <hr>
 
-	<p class="description">A simple web-based WYSIWYG editor, written in <a href="http://mootools.net/">MooTools</a>.</p>
-	
-	<h2>Demo</h2>
-	<textarea class="mooeditable" id="textarea-1" name="editable1">
-		&lt;p&gt;&lt;strong&gt;This&lt;/strong&gt; is cool!&lt;/p&gt;
-	</textarea>
-	<p>Play around with <a href="http://jsfiddle.net/cheeaun/NHBVa/">this demo on jsFiddle</a>.</p>
+        <section id="main_content">
+          <h1>
+<a name="mooeditable" class="anchor" href="#mooeditable"><span class="octicon octicon-link"></span></a>MooEditable</h1>
 
-	<h2>Download</h2>
-	<p>You can download this project in either
-	<a href="http://github.com/cheeaun/mooeditable/zipball/master">zip</a> or
-	<a href="http://github.com/cheeaun/mooeditable/tarball/master">tar</a> formats.
-	</p>
-	<p>You can also clone the project with <a href="http://git-scm.com">Git</a> by running:
-	<pre>$ git clone git://github.com/cheeaun/mooeditable</pre>
-	</p>
-	
-	<h2>Build</h2>
-	<p>You can build a single compressed JavaScript file and then save it, using the <a href="build.html">MooEditable Builder</a>.</p>
-	
-	<h2>Documentation</h2>
-	<p>You can read <a href="docs.html">the documentation here</a>.</p>
+<p>A simple web-based WYSIWYG editor, written in <a href="http://mootools.net/">MooTools</a>.</p>
 
-	<h2>Source Code</h2>
-	<p><a href="http://github.com/cheeaun/mooeditable">http://github.com/cheeaun/mooeditable</a></p>
+<p><img src="https://raw.github.com/elso/mooeditable/gh-pages/mooeditable-screenshot.png" alt="Screenshot"></p>
 
-	<h2>Discussion</h2>
-	<p><a href="http://groups.google.com/group/mooeditable">http://groups.google.com/group/mooeditable</a></p>
-	
-	<h2>Issue Tracker</h2>
-	<p><a href="http://cheeaun.lighthouseapp.com/projects/25080-mooeditable">http://cheeaun.lighthouseapp.com/projects/25080-mooeditable</a></p>
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
 
-</div>
-</body>
+<ul>
+<li>Clean interface</li>
+<li>Customizable buttons</li>
+<li>Tango icons</li>
+<li>Lightweight</li>
+<li>Works in <a href="http://developer.yahoo.com/yui/articles/gbs/">A-graded desktop web browsers</a>
+</li>
+<li>Resizeable (XY, X or Y direction)</li>
+<li>Statusbar with HTML-Path and word-/character counter</li>
+</ul><h2>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to Use</h2>
+
+<p>There are two ways. Note that <code>textarea-1</code> is the <code>id</code> of a <code>textarea</code> element. This is the simple one:</p>
+
+<pre><code>#JS
+$('textarea-1').mooEditable();
+</code></pre>
+
+<p>And this is the Classic one:</p>
+
+<pre><code>#JS
+new MooEditable('textarea-1');
+</code></pre>
+        </section>
+
+        <footer>
+          Mooeditable is maintained by <a href="https://github.com/elso">elso</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
 </html>
