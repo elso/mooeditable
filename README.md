@@ -3,7 +3,7 @@ MooEditable
 
 A simple web-based WYSIWYG editor, written in [MooTools](http://mootools.net/).
 
-![Screenshot](http://cheeaun.github.com/mooeditable/mooeditable-screenshot.png)
+![Screenshot](https://raw.github.com/elso/mooeditable/gh-pages/mooeditable-screenshot.png)
 
 Features
 --------
@@ -13,6 +13,8 @@ Features
 * Tango icons
 * Lightweight
 * Works in [A-graded desktop web browsers](http://developer.yahoo.com/yui/articles/gbs/)
+* Resizeable (XY, X or Y direction)
+* Statusbar with HTML-Path and word-/character counter
 
 How to Use
 ----------
