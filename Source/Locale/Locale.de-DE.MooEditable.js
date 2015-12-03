@@ -20,7 +20,7 @@ provides: [Locale.de-DE.MooEditable]
 */
 
 Locale.define('de-DE', 'MooEditable', {
-    
+
 	// MooEditable
 	ok: 'OK',
 	cancel: 'Abbrechen',
@@ -41,11 +41,11 @@ Locale.define('de-DE', 'MooEditable', {
 	enterImageURL: 'Bild URL eingeben',
 	addImage: 'Image hinzufügen',
 	toggleView: 'Ansicht umschalten',
-	
+
 	// MooEditable.Charmap
 	insertCustomCharacter: 'Sonderzeichen einfügen',
 	insertCharacter: 'Zeichen einfügen',
-	
+
 	// MooEditable.Extras
 	blockFormatting: 'Block-Formatierung',
 	paragraph: 'Absatz',
@@ -58,14 +58,14 @@ Locale.define('de-DE', 'MooEditable', {
 	alignJustify: 'Blocksatz',
 	removeFormatting: 'Formatierung entfernen',
 	insertHorizontalRule: 'Horizontale Linie einfügen',
-	
+
 	// MooEditable.Flash
 	embed: 'Embedcode einfügen',
 	flashEmbed: 'Flash Embed',
-	
+
 	// MooEditable.Forecolor
 	changeColor: 'Farbe ändern',
-	
+
 	// MooEditable.Image
 	imageAlt: 'alt',
 	imageClass: 'class',
@@ -75,13 +75,13 @@ Locale.define('de-DE', 'MooEditable', {
 	imageAlignCenter: 'center',
 	imageAlignRight: 'right',
 	addEditImage: 'Bild hinzufügen/bearbeiten',
-	
+
 	// MooEditable.Pagebreak
 	pageBreak: 'Seitenumbruch',
-	
+
 	// MooEditable.Smiley
 	insertSmiley: 'Smiley einfügen',
-	
+
 	// MooEditable.Table
 	tableColumns: 'Spalten',
 	tableRows: 'Zeilen',
@@ -111,14 +111,19 @@ Locale.define('de-DE', 'MooEditable', {
 	mergeTableCell: 'Tabellenspalten verbinden',
 	splitTableCell: 'Tabellenspalten teilen',
 	deleteTableCol: 'Tabellenspalten löschen',
-    
-    // MooEditable.UI.ExtendedLinksDialog
-    protocol: 'Protokoll',
-    link: 'Link',
-    email: 'E-Mail',
-    urlWithoutHttp: 'URL (ohne http://)',
+
+	// MooEditable.UI.ExtendedLinksDialog
+	protocol: 'Protokoll',
+	link: 'Link',
+	email: 'E-Mail',
+	urlWithoutHttp: 'URL (ohne http://)',
 	window: 'Fenster',
-    sameWindow: 'gleiches Fenster',
-    newWindow: 'neues Fenster'
-    
+	sameWindow: 'gleiches Fenster',
+	newWindow: 'neues Fenster',
+
+	// MooEditable.UI.Statusbar
+	words : 'Wörter',
+	chars : 'Zeichen',
+	maxof : 'von'
+
 });

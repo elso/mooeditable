@@ -20,7 +20,7 @@ provides: [Locale.nl.MooEditable]
 */
 
 Locale.define('nl', 'MooEditable', {
-	
+
 	// MooEditable
 	ok: 'OK',
 	cancel: 'Annuleren',
@@ -41,11 +41,11 @@ Locale.define('nl', 'MooEditable', {
 	enterImageURL: 'Voer de hyperlink van de illustratie in',
 	addImage: 'Illustratie toevoegen',
 	toggleView: 'Wijzig modus',
-	
+
 	// MooEditable.Charmap
 	insertCustomCharacter: 'Voer speciaal symbool in',
 	insertCharacter: 'Voer symbool in',
-	
+
 	// MooEditable.Extras
 	blockFormatting: 'Alinea opmaak',
 	paragraph: 'Paragraaf',
@@ -58,14 +58,14 @@ Locale.define('nl', 'MooEditable', {
 	alignJustify: 'Uitvullen',
 	removeFormatting: 'Verwijder opmaak',
 	insertHorizontalRule: 'Voer horizontale streep in',
-	
+
 	// MooEditable.Flash
 	embed: 'Voer embed code in',
 	flashEmbed: 'Flash Embed',
-	
+
 	// MooEditable.Forecolor
 	changeColor: 'Wijzig kleur',
-	
+
 	// MooEditable.Image
 	imageAlt: 'alt',
 	imageClass: 'class',
@@ -75,13 +75,13 @@ Locale.define('nl', 'MooEditable', {
 	imageAlignCenter: 'center',
 	imageAlignRight: 'right',
 	addEditImage: 'Wijzig illustratie',
-	
+
 	// MooEditable.Pagebreak
 	pageBreak: 'Pagina einde',
-	
+
 	// MooEditable.Smiley
 	insertSmiley: 'Smiley toevoegen',
-	
+
 	// MooEditable.Table
 	tableColumns: 'kolommen',
 	tableRows: 'rijen',
@@ -111,14 +111,19 @@ Locale.define('nl', 'MooEditable', {
 	mergeTableCell: 'Cellen samenvoegen',
 	splitTableCell: 'Cel splitsen',
 	deleteTableCol: 'Kolom verwijderen',
-    
-    // MooEditable.UI.ExtendedLinksDialog
-    protocol: 'protocol',
-    link: 'hyperlink',
-    email: 'e-Mail',
-    urlWithoutHttp: 'Hyperlink (zonder http://)',
-    window: 'Venster',
-    sameWindow: 'Zelfde venster',
-    newWindow: 'Nieuw venster'
-    
+
+	// MooEditable.UI.ExtendedLinksDialog
+	protocol: 'protocol',
+	link: 'hyperlink',
+	email: 'e-Mail',
+	urlWithoutHttp: 'Hyperlink (zonder http://)',
+	window: 'Venster',
+	sameWindow: 'Zelfde venster',
+	newWindow: 'Nieuw venster',
+
+	// MooEditable.UI.Statusbar
+	words : 'Woorden',
+	chars : 'Karakters',
+	maxof : 'van'
+
 });

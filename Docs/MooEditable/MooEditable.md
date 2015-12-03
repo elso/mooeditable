@@ -201,6 +201,7 @@ The toolbar interface.
 [Events][], [Options][]
 
 
+
 MooEditable.UI.Toolbar Method: constructor {#MooEditable-UI-Toolbar:constructor}
 --------------------------------------------------------------------------------
 
@@ -336,6 +337,35 @@ Hides the toolbar.
 ### Returns:
 
 * (*object*) This MooEditable.UI.Toolbar instance.
+
+
+
+Class: MooEditable.UI.Statusbar {#MooEditable-UI-Statusbar}
+===========================================================
+
+Attach a Statusbar with character and/or word counter, show html path, allows word and character/word entry limit to the interface.
+
+### Options:
+* showwords - (*boolean*: defaults to true) - Show counter of words.
+* showchars - (*boolean*: defaults to true) - Show counter of chars.
+* shownode - (*boolean*: defaults to true) - Show html nodes.
+* showmaxwords - (*boolean*: defaults to true) - Show word limit if set by maxwords.
+* showmaxchars - (*boolean*: defaults to true) - Show chars limit if set by maxchars or maxrealchar.
+* maxwords - (*integer*: defaults to null) - Word limit into Html View.
+* maxchars - (*integer*: defaults to null) - Character limit into Html View (only text).
+* maxrealchars - (*integer*: defaults to null) - Character limit into Code View (text + html-tags).
+* resizeable - (*boolean*: defaults to true) - Is Editor resizable?
+* resizedirection  - (*object*: defaults to a object shown below) - Which directions is Editor resizable?
+
+		{x: false, y: true} 
+* separator - (*string*: defaults to '/') - Seperator between words and characters counter.
+* class - (*string*: defaults to null) - The additional class name of the statusbar.
+
+### Events:
+
+* editorResizeBeforeStart - Executed before resizing starts.
+* editorResizeDrag - Executed on resizing.
+* editorResizeComplete - Executed after resizing end.
 
 
 

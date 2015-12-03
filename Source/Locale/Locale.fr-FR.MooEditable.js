@@ -20,7 +20,7 @@ provides: [Locale.fr-FR.MooEditable]
 */
 
 Locale.define('fr-FR', 'MooEditable', {
-	
+
 	// MooEditable
 	ok: 'OK',
 	cancel: 'Annuler',
@@ -41,11 +41,11 @@ Locale.define('fr-FR', 'MooEditable', {
 	enterImageURL: 'Entrez l\'URL de l\'image',
 	addImage: 'Ajouter une image',
 	toggleView: 'Changer de vue',
-	
+
 	// MooEditable.Charmap
 	insertCustomCharacter: 'Ajouter un caratère spécial',
 	insertCharacter: 'Ajouter',
-	
+
 	// MooEditable.Extras
 	blockFormatting: 'Formatage',
 	paragraph: 'Paragraphe',
@@ -58,14 +58,14 @@ Locale.define('fr-FR', 'MooEditable', {
 	alignJustify: 'Justifier',
 	removeFormatting: 'Supprimer le formatage',
 	insertHorizontalRule: 'Insérer une ligne horizontale',
-	
+
 	// MooEditable.Flash
 	embed: 'Entrer le code embed',
 	flashEmbed: 'Ajouter un objet flash',
-	
+
 	// MooEditable.Forecolor
 	changeColor: 'Changer la couleur',
-	
+
 	// MooEditable.Image
 	imageAlt: 'alt',
 	imageClass: 'classe',
@@ -75,13 +75,13 @@ Locale.define('fr-FR', 'MooEditable', {
 	imageAlignCenter: 'centre',
 	imageAlignRight: 'droite',
 	addEditImage: 'Ajouter/Editer une image',
-	
+
 	// MooEditable.Pagebreak
 	pageBreak: 'Saut de page',
-	
+
 	// MooEditable.Smiley
 	insertSmiley: 'Ajouter un Smiley',
-	
+
 	// MooEditable.Table
 	tableColumns: 'colonnes',
 	tableRows: 'lignes',
@@ -110,6 +110,12 @@ Locale.define('fr-FR', 'MooEditable', {
 	editTableCol: 'Editer la colonne',
 	mergeTableCell: 'Scinder la colonne',
 	splitTableCell: 'Séprarer la colonne',
-	deleteTableCol: 'Supprimer la colonne'
-	
+	deleteTableCol: 'Supprimer la colonne',
+
+	// MooEditable.UI.Statusbar
+	words : 'Mots',
+	chars : 'Caractères',
+	maxof : 'sur'
+
+
 });

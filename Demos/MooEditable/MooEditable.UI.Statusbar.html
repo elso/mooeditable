@@ -13,7 +13,6 @@
 			#textarea-2{
 				width: 700px;
 				height: 200px;
-				padding: 10px;
 				border: 2px solid #ddd;
 			}
 		</style>
@@ -23,12 +22,13 @@
 		<script type="text/javascript" src="../assets/mootools-more-1.4.0.1.js"></script>
 		<script type="text/javascript" src="../../Source/MooEditable/MooEditable.js"></script>
 		<script type="text/javascript" src="../../Source/MooEditable/MooEditable.UI.Statusbar.js"></script>
+		
 
 		<script type="text/javascript">
 			window.addEvent('domready', function(){
-				$('textarea-1').mooEditable();
-				$('textarea-2').mooEditable({'maxwords': 10});
-
+				new MooEditable('textarea-1',{});
+				new MooEditable('textarea-2', {actions: 'bold italic underline strikethrough', maxwords: 10});
+				
 				// Post submit
 				$('theForm').addEvent('submit', function(e){
 					alert($('textarea-1').value);
@@ -53,7 +53,7 @@
 			<p></p>
 			<label for="textarea-2">Textarea with Word Limit (max. 10)</label>
 			<textarea id="textarea-2" name="editable2">
-			&lt;p&gt;&lt;strong&gt;This&lt;/strong&gt; is cool!&lt;/p&gt;
+			&lt;p&gt;&lt;strong&gt;This&lt;/strong&gt; is very cool!&lt;/p&gt;
 			</textarea>
 
 		</form>

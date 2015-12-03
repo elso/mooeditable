@@ -60,6 +60,11 @@
 		"MooEditable.Pagebreak": {
 			"deps": ["MooEditable"],
 			"desc": "Extends MooEditable with pagebreak plugin"
+		},
+		
+		"MooEditable.UI.Statusbar": {
+			"deps": ["MooEditable"],
+			"desc": "Extends MooEditable with Statusbar into footer"
 		}
 		
 	}

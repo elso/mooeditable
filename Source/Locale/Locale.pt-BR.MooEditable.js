@@ -20,7 +20,7 @@ provides: [Locale.pt-BR.MooEditable]
 */
 
 Locale.define('pt-BR', 'MooEditable', {
-	
+
 	// MooEditable
 	ok: 'OK',
 	cancel: 'Cancelar',
@@ -41,11 +41,11 @@ Locale.define('pt-BR', 'MooEditable', {
 	enterImageURL: 'Forneça a URL da imagem',
 	addImage: 'Adicionar imagem',
 	toggleView: 'Alterar visualização',
-	
+
 	// MooEditable.Charmap
 	insertCustomCharacter: 'Inserir caractere personalizado',
 	insertCharacter: 'Inserir caractere',
-	
+
 	// MooEditable.Extras
 	blockFormatting: 'Formatar bloco',
 	paragraph: 'Parágrafo',
@@ -58,14 +58,14 @@ Locale.define('pt-BR', 'MooEditable', {
 	alignJustify: 'Justificado',
 	removeFormatting: 'Remover formatação',
 	insertHorizontalRule: 'Inserir linha horizontal',
-	
+
 	// MooEditable.Flash
 	embed: 'Forneça código embutido',
 	flashEmbed: 'Flash embutido',
-	
+
 	// MooEditable.Forecolor
 	changeColor: 'Alterar cor',
-	
+
 	// MooEditable.Image
 	imageAlt: 'Alt',
 	imageClass: 'Classe',
@@ -75,13 +75,13 @@ Locale.define('pt-BR', 'MooEditable', {
 	imageAlignCenter: 'centralizado',
 	imageAlignRight: 'direita',
 	addEditImage: 'Inserir/editar imagem',
-	
+
 	// MooEditable.Pagebreak
 	pageBreak: 'Quebra de página',
-	
+
 	// MooEditable.Smiley
 	insertSmiley: 'Inserir Smiley',
-	
+
 	// MooEditable.Table
 	tableColumns: 'Colunas',
 	tableRows: 'Linhas',
@@ -111,14 +111,19 @@ Locale.define('pt-BR', 'MooEditable', {
 	mergeTableCell: 'Mesclar célula',
 	splitTableCell: 'Dividir célula',
 	deleteTableCol: 'Excluir coluna',
-    
-    // MooEditable.UI.ExtendedLinksDialog
-    protocol: 'Protocolo',
-    link: 'Link',
-    email: 'E-Mail',
-    urlWithoutHttp: 'URL (sem http://)',
-    window: 'Janela',
-    sameWindow: 'Mesma janela',
-    newWindow: 'Nova janela'
-    
+
+	// MooEditable.UI.ExtendedLinksDialog
+	protocol: 'Protocolo',
+	link: 'Link',
+	email: 'E-Mail',
+	urlWithoutHttp: 'URL (sem http://)',
+	window: 'Janela',
+	sameWindow: 'Mesma janela',
+	newWindow: 'Nova janela',
+
+	// MooEditable.UI.Statusbar
+	words : 'Palavras',
+	chars : 'Caracteres',
+	maxof : 'de'
+
 });

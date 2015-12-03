@@ -132,11 +132,12 @@
 
 .mooeditable-textarea{
 	margin: 0 !important;
-	padding: 0 !important;
+	padding: 16px !important;
 	border: 0 !important;
 	width: 100% !important;
 	resize: none !important; /* disable resizable textareas in Webkit */
 	outline: 0 !important; /* disable focus ring in Safari */
+	box-sizing: border-box;
 }
 
 .mooeditable-ui-dialog{
@@ -207,10 +208,10 @@
 	display: inline-block;
 	clear: both;
 	bottom: 0;
-  height: 16px;
-  margin: 0;
-  position: absolute;
-  right: 0;
-  visibility: visible;
-  width: 16px;
+	height: 16px;
+	margin: 0;
+	position: absolute;
+	right: 0;
+	visibility: visible;
+	width: 16px;
 }

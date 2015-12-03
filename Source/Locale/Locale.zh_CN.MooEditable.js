@@ -1,5 +1,5 @@
 Locale.define('zh-CN', 'MooEditable', {
-	
+
 	// MooEditable
 	ok: '确定',
 	cancel: '取消',
@@ -20,11 +20,11 @@ Locale.define('zh-CN', 'MooEditable', {
 	enterImageURL: '输入图片链接',
 	addImage: '添加图片',
 	toggleView: '切换视图',
-	
+
 	// MooEditable.Charmap
 	insertCustomCharacter: '插入自定义字符',
 	insertCharacter: '插入字符',
-	
+
 	// MooEditable.Extras
 	blockFormatting: '格式',
 	paragraph: '正文',
@@ -36,15 +36,15 @@ Locale.define('zh-CN', 'MooEditable', {
 	alignCenter: '居中',
 	alignJustify: '两端对齐',
 	removeFormatting: '删除格式',
-	insertHorizontalRule: '插入分割线', 
-	
+	insertHorizontalRule: '插入分割线',
+
 	// MooEditable.Flash
 	embed: '输入嵌入代码',
 	flashEmbed: '嵌入Flash',
-	
+
 	// MooEditable.Forecolor
 	changeColor: '更改颜色',
-	
+
 	// MooEditable.Image
 	imageAlt: 'alt',
 	imageClass: 'class',
@@ -54,13 +54,13 @@ Locale.define('zh-CN', 'MooEditable', {
 	imageAlignCenter: 'center',
 	imageAlignRight: 'right',
 	addEditImage: '添加/编辑图片',
-	
+
 	// MooEditable.Pagebreak
 	pageBreak: '分页符',
-	
+
 	// MooEditable.Smiley
 	insertSmiley: '插入表情',
-	
+
 	// MooEditable.Table
 	tableColumns: 'columns',
 	tableRows: 'rows',
@@ -90,7 +90,7 @@ Locale.define('zh-CN', 'MooEditable', {
 	mergeTableCell: '合并单元格',
 	splitTableCell: '拆分单元格',
 	deleteTableCol: '删除列',
-    
+
     // MooEditable.UI.ExtendedLinksDialog
     protocol: 'protocol',
     link: 'link',
@@ -98,6 +98,11 @@ Locale.define('zh-CN', 'MooEditable', {
     urlWithoutHttp: 'URL (without http://)',
     window: '窗口',
     sameWindow: '当前窗口',
-    newWindow: '新窗口'
-    
+    newWindow: '新窗口',
+
+	// MooEditable.UI.Statusbar
+	words : '词',
+	chars : '字符',
+	maxof : ':'
+
 });
